@@ -33,6 +33,7 @@ def handle_choice(choice, shopping_list):
 
 def main():
     shopping_list = []
+    print("\nShopping List Manager") 
     choices = ['1', '2', '3', '4']  
     for choice in choices:
         display_menu()
